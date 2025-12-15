@@ -1,6 +1,7 @@
 :root {
   /* variables */
   /* color names from https://colors.artyclick.com/color-name-finder/ */
+  /* USED */
   --color_hippie-blue: 77, 150, 169;
   --color_hippie-blue-active: 113, 192, 212;
   --color_hippie-blue-opaque: 113, 192, 212, 0.5;
@@ -12,9 +13,11 @@
   --color_light-violet: 217, 184, 255;
   --color_alabaster: 250, 250, 250;
 
+  /* USED */
   --font: "Red Hat Display", Inter, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
 
+  /* Unused so far, but check with ctrl-shift-f before deleting */
   --size_heading1-mobile: 4.4rem;
   --size_heading1-tablet: 4.8rem;
   --size_heading1-desktop: 6.4rem;
@@ -22,6 +25,15 @@
   --size_heading2-lrg: 4rem;
   --size_body-sm: 1.6rem;
   --size_body-lrg: 1.8rem;
+
+  --size_mob-heading1: 2.5rem;
+  --size_mob-heading2: 2rem;
+  --size_tab-heading1: 3rem;
+  --size_tab-heading2: 2.5rem;
+  --size_dsk-heading1: 4rem;
+  --size_dsk-heading2: 2.5rem;
+  
+  /* Used */
   --size_copy: 1rem;
 
   /* spacers */

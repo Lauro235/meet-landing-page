@@ -63,7 +63,7 @@
 }
 
 .step2-layout {
-  text-align: center;
+	text-align: center;
 	margin: 0 1.5rem;
 	padding-bottom: 4.5rem;
 }
@@ -98,13 +98,29 @@
 
 @media (min-width: 768px) {
 	.header-logo {
-		padding: var(--space_four);
+		/* padding: var(--space_four); */
+		padding-bottom: 4rem;
+	}
+	.hero-banner-img {
+		padding-bottom: 4.5rem;
 	}
 	.hero-btn-layout {
 		display: flex;
-		max-width: 348px;
-		/* margin: 0 auto; */
+		gap: 1rem;
+		width: fit-content;
+		margin: 0 auto;
+		padding-bottom: 5rem;
 	}
+	.step1 .step-indicator {
+		padding-bottom: 4.1875rem;
+	}
+  .usp-images {
+    flex-wrap: nowrap;
+    padding-bottom: 3rem;
+    img {
+      width: 20%;
+    };
+  }
 }
 
 @media (min-width: 1440px) {

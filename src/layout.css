@@ -72,15 +72,13 @@
 	padding-top: 5.25rem;
 }
 
-.mobile-header,
-.desktop-header {
+.mobile-header {
 	overflow: hidden;
-
 	img {
 		width: 110%;
 		max-width: 110%;
 		height: 100%;
-		transform: translate(-5%);
+		transform: translateX(-5%);
 	}
 }
 
@@ -114,13 +112,13 @@
 	.step1 .step-indicator {
 		padding-bottom: 4.1875rem;
 	}
-  .usp-images {
-    flex-wrap: nowrap;
-    padding-bottom: 3rem;
-    img {
-      width: 20%;
-    };
-  }
+	.usp-images {
+		flex-wrap: nowrap;
+		padding-bottom: 3rem;
+		img {
+			width: 20%;
+		}
+	}
 }
 
 @media (min-width: 1440px) {
@@ -131,5 +129,9 @@
 		display: flex;
 		place-content: center;
 		place-items: center;
+	}
+	.hero-banner-img {
+		padding-bottom: 0;
+		margin-bottom: 4.5rem;
 	}
 }

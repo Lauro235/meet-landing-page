@@ -32,6 +32,11 @@
   --size_tab-heading2: 2.5rem;
   --size_dsk-heading1: 4rem;
   --size_dsk-heading2: 2.5rem;
+
+  --size_mob-copy: 1rem;
+  --size_tab-copy: 1rem;
+  --size_dsk-copy: 1.088rem;
+  --size_action: 1.088rem;
   
   /* Used */
   --size_copy: 1rem;

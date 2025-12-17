@@ -33,14 +33,14 @@
 
 /* BUTTONS */
 
-#download-btn {
+.download-btn {
 	background-color: rgb(var(--color_hippie-blue));
 	span {
 		color: rgb(var(--color_columbia-blue));
 	}
 }
 
-#learn-more-btn {
+.learn-more-btn {
 	background-color: rgb(var(--color_deep-lavander));
 }
 
@@ -208,7 +208,7 @@
 	}
 	.hero-header {
 		font-size: var(--size_dsk-heading1);
-    line-height: 4rem;
+		line-height: 4rem;
 	}
 	.hero-banner-img {
 		height: fit-content;
@@ -224,5 +224,21 @@
 	.step2-content {
 		background-image: linear-gradient(rgba(135, 135, 157, 0.8)),
 			url("assets/desktop/image-footer.jpg");
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
 	}
+
+  .step2-layout {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* .step2-copy {
+      height: fit-content;
+      padding-bottom: 0;
+    } */
+  }
 }

@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 .header-logo {
 	padding-top: 3rem;
 	padding-bottom: 3.5rem;
@@ -17,6 +21,13 @@
 
 .hero-btn-layout {
 	padding-bottom: 4rem;
+	display: grid;
+	gap: 1.25rem;
+	justify-content: center;
+
+	button {
+		margin: 0 auto;
+	}
 }
 
 .step1 .step-indicator {
@@ -28,6 +39,7 @@
 
 .desktop-header {
 	display: none;
+	padding-bottom: 6.875rem;
 }
 
 .usp-images {
@@ -58,8 +70,10 @@
 
 .step1-content {
 	text-align: center;
-	margin: 0 1.5rem;
+	margin: 0 auto;
 	padding-bottom: 4rem;
+  width: 87.2%;
+  max-width: 573px;
 }
 
 .step2-layout {
@@ -79,16 +93,6 @@
 		max-width: 110%;
 		height: 100%;
 		transform: translateX(-5%);
-	}
-}
-
-.hero-btn-layout {
-	display: grid;
-	gap: 1.25rem;
-	justify-content: center;
-
-	button {
-		margin: 0 auto;
 	}
 }
 
@@ -122,6 +126,10 @@
 }
 
 @media (min-width: 1440px) {
+	.header-logo {
+		padding-top: 5rem;
+		padding-bottom: 6.875rem;
+	}
 	.mobile-header {
 		display: none;
 	}
@@ -129,9 +137,33 @@
 		display: flex;
 		place-content: center;
 		place-items: center;
+    .hero-content {
+      padding-top: 1.5rem;
+    }
+    .hero-btn-layout {
+      padding-bottom: 0.438rem;
+    }
+		.hero-header {
+			padding-bottom: 2rem;
+		}
 	}
 	.hero-banner-img {
 		padding-bottom: 0;
-		margin-bottom: 4.5rem;
+		margin-bottom: 3rem;
 	}
+  .step1-content{
+    max-width: 540px;
+  }
+  .step1-copy {
+    font-size: 1.125rem;
+  }
+
+  .step2-heading {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .step2-layout {
+    padding: 2rem;
+  }
+
 }

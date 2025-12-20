@@ -72,8 +72,8 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	padding-bottom: 4rem;
-  width: 87.2%;
-  max-width: 573px;
+	width: 87.2%;
+	max-width: 573px;
 }
 
 .step2-layout {
@@ -84,6 +84,13 @@ body {
 
 .step2-heading {
 	padding-top: 5.25rem;
+	padding-bottom: 1.5rem;
+}
+
+.step2-copy {
+	padding-bottom: 2rem;
+	max-width: 573px;
+	margin: 0 auto;
 }
 
 .mobile-header {
@@ -137,12 +144,12 @@ body {
 		display: flex;
 		place-content: center;
 		place-items: center;
-    .hero-content {
-      padding-top: 1.5rem;
-    }
-    .hero-btn-layout {
-      padding-bottom: 0.438rem;
-    }
+		.hero-content {
+			padding-top: 1.5rem;
+		}
+		.hero-btn-layout {
+			padding-bottom: 0.438rem;
+		}
 		.hero-header {
 			padding-bottom: 2rem;
 		}
@@ -151,19 +158,42 @@ body {
 		padding-bottom: 0;
 		margin-bottom: 3rem;
 	}
-  .step1-content{
-    max-width: 540px;
-  }
-  .step1-copy {
-    font-size: 1.125rem;
-  }
+	.step1-content {
+		max-width: 504px;
+	}
+	.step1-copy {
+		font-size: var(--size_action);
+	}
 
-  .step2-heading {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .step2-layout {
-    padding: 2rem;
-  }
-
+	.step2-heading {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.step2-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		height: 100%;
+		padding-bottom: 0;
+	}
+	.step2-btn {
+		height: fit-content;
+		padding-bottom: 0;
+	}
+	.step2-layout {
+		display: flex;
+		width: 85%;
+		max-width: 1100px;
+		height: fit-content;
+		/* align-items: ; */
+		justify-content: space-between;
+    align-items: center;
+		padding-bottom: 0;
+		/* padding: 4.75rem; */
+    margin: 7.25rem 0 6.5rem 0;
+    .step2-copy {
+      padding-bottom: 0;
+    }
+	}
 }

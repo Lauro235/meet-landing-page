@@ -15,6 +15,10 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 /* TEXT */
 
 .hero-header {
@@ -39,9 +43,16 @@
 		color: rgb(var(--color_columbia-blue));
 	}
 }
+.download-btn:hover {
+	background-color: rgb(var(--color_hippie-blue-active));
+}
 
 .learn-more-btn {
 	background-color: rgb(var(--color_deep-lavander));
+}
+
+.learn-more-btn:hover, .step2-btn:hover {
+  background-color: rgb(var(--color_deep-lavander-active));
 }
 
 .hero-btn {
@@ -136,17 +147,13 @@
 .step2-heading {
 	font-size: 2rem;
 	font-weight: bold;
-	padding-bottom: 1.5rem;
 	span {
 		display: block;
 	}
 }
 
 .step2-copy {
-	padding-bottom: 2rem;
 	font-size: var(--size_action);
-	max-width: 573px;
-	margin: 0 auto;
 }
 
 .step-indicator {
@@ -194,6 +201,9 @@
 	.hero-header {
 		font-size: var(--size_tab-heading1);
 	}
+	.step2-heading {
+		font-size: var(--size_tab-heading2);
+	}
 	.step2-content {
 		background-image: linear-gradient(rgba(135, 135, 157, 0.8)),
 			url("assets/tablet/image-footer.jpg");
@@ -224,21 +234,13 @@
 	.step2-content {
 		background-image: linear-gradient(rgba(135, 135, 157, 0.8)),
 			url("assets/desktop/image-footer.jpg");
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    height: 100%;
+		.step2-heading {
+			text-align: left;
+			line-height: 2.75rem;
+		}
+		.step2-copy {
+			max-width: 350px;
+			text-align: left;
+		}
 	}
-
-  .step2-layout {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    /* .step2-copy {
-      height: fit-content;
-      padding-bottom: 0;
-    } */
-  }
 }

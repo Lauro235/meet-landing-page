@@ -6,7 +6,7 @@
   --color_hippie-blue-active: 113, 192, 212;
   --color_hippie-blue-opaque: 113, 192, 212, 0.5;
   --color_deep-lavander: 133, 95, 177;
-  --color_deep-lavander-active: 176, 139, 221;
+  --color_deep-lavander-active: 177, 139, 221;
   --color_ebony-clay: 40, 40, 61;
   --color_oslo-grey: 135, 135, 157;
   --color_columbia-blue: 143, 227, 249;
@@ -29,14 +29,14 @@
   --size_mob-heading1: 2.5rem;
   --size_mob-heading2: 2rem;
   --size_tab-heading1: 3rem;
-  --size_tab-heading2: 2.5rem;
+  --size_tab-heading2: 2.75rem;
   --size_dsk-heading1: 4rem;
-  --size_dsk-heading2: 2.5rem;
+  --size_dsk-heading2: 2.75rem;
 
   --size_mob-copy: 1rem;
   --size_tab-copy: 1rem;
   --size_dsk-copy: 1.088rem;
-  --size_action: 1.088rem;
+  --size_action: 1.125rem;
   
   /* Used */
   --size_copy: 1rem;
